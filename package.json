@@ -1,13 +1,11 @@
 {
-  "homepage": "http://mattiauliano.github.io/notifications-page-fe-mentor",
   "name": "notifications-page-fe-mentor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
