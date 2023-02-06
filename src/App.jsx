@@ -22,7 +22,7 @@ function App() {
         >
           <img
             className="avatar"
-            src="../public/avatar-mark-webber.webp"
+            src="public/avatar-mark-webber.webp"
             alt="Avatar Mark Webber"
           />
           <div className="content">
@@ -41,7 +41,7 @@ function App() {
           className={`notification ${isClicked ? null : "notification-unread"}`}
         >
           <img
-            src="../public/avatar-angela-gray.webp"
+            src="public/avatar-angela-gray.webp"
             alt="Avatar Angela Gray"
             className="avatar"
           />
@@ -60,7 +60,7 @@ function App() {
           className={`notification ${isClicked ? null : "notification-unread"}`}
         >
           <img
-            src="../public/avatar-jacob-thompson.webp"
+            src="public/avatar-jacob-thompson.webp"
             alt="Avatar Jacob Thompson"
             className="avatar"
           />
@@ -79,7 +79,7 @@ function App() {
 
         <div className="notification">
           <img
-            src="../public/avatar-rizky-hasanuddin.webp"
+            src="public/avatar-rizky-hasanuddin.webp"
             alt="Avatar Rizky Hasanuddin"
             className="avatar"
           />
@@ -101,7 +101,7 @@ function App() {
         </div>
         <div className="notification">
           <img
-            src="../public/avatar-kimberly-smith.webp"
+            src="public/avatar-kimberly-smith.webp"
             alt="Avatar Angela Gray"
             className="avatar"
           />
@@ -116,7 +116,7 @@ function App() {
             <p className="time-ago">1w ago</p>
           </div>
           <img
-            src="../public/image-chess.webp"
+            src="public/image-chess.webp"
             alt="Chess Player"
             className="my-post"
           />
@@ -124,7 +124,7 @@ function App() {
         <div className="notification">
           <img
             className="avatar"
-            src="../public/avatar-nathan-peterson.webp"
+            src="public/avatar-nathan-peterson.webp"
             alt="Avatar Nathan Peterson"
           />
           <div className="content">
@@ -141,7 +141,7 @@ function App() {
         </div>
         <div className="notification">
           <img
-            src="../public/avatar-anna-kim.webp"
+            src="public/avatar-anna-kim.webp"
             alt="Avatar Anna Kim"
             className="avatar"
           />
