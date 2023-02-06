@@ -1,0 +1,168 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.container {
+  width: 95%;
+  padding: 2rem 1.5rem;
+  padding-bottom: 0.5rem;
+  background-color: white;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 15px;
+  max-width: 700px;
+}
+
+/* Notifications Bar */
+
+.notifications-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.notifications-bar h1 {
+  font-size: 1.5rem;
+}
+
+.notifications-bar p {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.number {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  background-color: rgb(110, 110, 255);
+  padding: 0.05rem 0.6rem;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Notifications */
+
+.notifications {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.avatar {
+  width: 50px;
+}
+
+.notification {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+.notification-unread {
+  background-color: #f1f1f1;
+}
+
+.notification-icon {
+  color: orangered;
+  margin-left: 0.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.time-ago {
+  color: grey;
+}
+
+.notification-color {
+  color: rgb(53, 53, 53);
+}
+
+.react-color {
+  color: rgb(53, 53, 53);
+  font-weight: 700;
+}
+
+.club {
+  color: rgb(53, 53, 53);
+  font-weight: 700;
+}
+
+.message {
+  border: 1px solid rgba(175, 175, 175, 0.291);
+  padding: 1rem;
+  color: rgb(53, 53, 53);
+  border-radius: 5px;
+}
+
+.push {
+  margin-right: auto;
+}
+
+.my-post {
+  width: 50px;
+}
+
+.my-post:hover {
+  cursor: pointer;
+}
+
+/* Hover */
+
+.notifications-bar p:hover,
+.react-color:hover,
+.club:hover,
+strong:hover {
+  cursor: pointer;
+  color: rgb(110, 110, 255);
+}
+
+.message:hover {
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: none;
+  margin: 1px;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 475px) {
+  .notifications-bar h1 {
+    font-size: 1.3rem;
+  }
+
+  .notifications-bar p {
+    font-size: 0.7rem;
+  }
+
+  .container {
+    padding: 1rem 0.5rem;
+  }
+
+  .avatar {
+    width: 40px;
+  }
+}
